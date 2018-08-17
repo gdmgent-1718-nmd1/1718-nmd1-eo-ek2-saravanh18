@@ -16,3 +16,285 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+.header{
+    overflow: hidden;
+    background-color:   #657e8d;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 5;
+    height: 15vh;
+}
+
+.topic {
+    background-color: #f4f4f4;
+    margin-bottom: 30px; 
+    padding: 40px;   
+}
+
+.basket-but{
+    height: 40px;
+    width: 130px;
+    border: 1px solid #047fc2;
+    margin-left: 20px;
+}
+
+.basket-but:hover{
+    padding: -2px 8px 0px -2px;
+    border: 2px solid #047fc2;
+}
+
+.basket-but p{
+    margin:8px;
+    text-align: center;
+}
+
+.tab-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tab-item{
+    height: 40px;
+    width: 360px;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 40px;
+    background-color: #047fc2;
+    border: 1px solid grey;
+}
+
+.tab-item:hover{
+    opacity: 0.8;
+}
+
+.tab-item p{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    vertical-align: center;
+    height: 100%;
+    margin:10px;
+    color:white;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.search-bar form input {
+    padding-left: 10px;
+    height: 40px;
+    width: 320px;
+    border: 1px solid #047fc2;
+}
+
+.search-bar form button {
+    height: 44px;
+    width : 44px;
+    background-color: #047fc2;
+    color: white;
+}
+
+.search-bar form button:hover {
+    background-color: white;
+    color: #047fc2;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    height: 40px;
+    margin-left: 50px;
+    border: 1px solid #047fc2;
+    padding: 0px 10px 0px 10px;
+}
+
+.basket:hover {
+    padding: -2px 8px 0px -2px;
+    border: 2px solid #047fc2;
+}
+
+.big-icon {
+    font-size: 30px;
+    margin:auto;
+}
+
+.basket p{
+    font-family: 'Open Sans'
+    font-size: 20px;
+    margin:auto;
+    padding-left: 10px;
+}
+
+.typo-example{
+    border-bottom: 1px solid black;
+}
+
+.my-h1 h1{
+    font-family: Oxygen;
+    font-size: 25 px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #047fc2;
+    font-weight: bold;
+
+}
+
+.my-h2 h2{
+    font-family: Oxygen;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #54b2cf;
+    font-weight: bold;
+}
+.my-h3 h3{
+    font-family: Oxygen;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #00275f;
+    font-weight: bold;
+}
+
+.my-reg h4{
+    font-family: 'Open Sans';
+    font-size: 21px;
+    text-transform: lowercase;
+    letter-spacing: 0px;
+    color: #080b18;
+    font-weight: normal;
+}
+
+.my-ita h4{
+    font-family: 'Open Sans';
+    font-size: 21px;
+    text-transform: lowercase;
+    letter-spacing: 0px;
+    color: #080b18;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.color-example {
+    display: flex;
+    flex-direction: column;
+}
+
+.color-example ul{
+    list-style: none;
+}
+
+.color2{
+    height: 100px;
+    width: 200px;
+    background-color: #047fc2;
+}
+
+.color3{
+    height: 100px;
+    width: 200px;
+    background-color: #080b18;
+}
+
+.color4{
+    height: 100px;
+    width: 200px;
+    background-color: #00275f;
+}
+
+.color5{
+    height: 100px;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+.color1{
+    height: 100px;
+    width: 200px;
+    background-color: #54b2cf;
+}
+
+.scen-box{
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.persona{
+    width: 33%;
+    height: 300px;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 60px;
+}
+
+.persona h2 {
+    border-bottom: 1px solid black;
+    height: 30px;
+}
+.conc-titles{
+    display: flex;
+    flex-direction: row;
+}
+
+.conc-titles > div{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.conc-item{
+    display: flex;
+    flex-direction: row;
+    background-color:   #f4f4f4;
+    margin-bottom: 30px;
+}
+
+.conc-item > div{
+    margin: 20px;
+
+}
+
+.conc-pic{
+    width: 33vw;
+}
+
+.conc-pic:hover{
+    opacity: 0.6;
+}
+
+.conc-pro h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.conc-con h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.conc-pro{
+    width: 33vw;
+    flex-grow: 1;
+    border: 3px solid  #0e7a57;
+}
+
+.conc-con{
+    width: 33vw;
+    flex-grow: 1;
+    border: 3px solid #ab1313;
+}
